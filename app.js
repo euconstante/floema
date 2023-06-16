@@ -113,8 +113,7 @@ const handleRequest = async (api) => {
 
   // collections.forEach((collection) => {
   //   collection.data.products.forEach((item) => {
-  //     console.log(item);
-  //     // assets.push(item.product.data.image.url);
+  //     assets.push(item.product.data.url);
   //   });
   // });
 

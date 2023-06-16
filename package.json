@@ -51,6 +51,7 @@
     "ogl": "0.0.76",
     "postcss-loader": "^6.1.1",
     "prefix": "^1.0.0",
+    "prettier": "^2.8.8",
     "raw-loader": "^4.0.2",
     "sass": "^1.42.1",
     "sass-loader": "^12.1.0",
