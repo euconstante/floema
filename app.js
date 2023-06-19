@@ -95,9 +95,9 @@ const handleRequest = async (api) => {
 
   const assets = [];
 
-  // home.data.gallery.forEach((item) => {
-  //   assets.push(item.image.url);
-  // });
+  home.data.gallery.forEach((item) => {
+    assets.push(item.image.url);
+  });
 
   about.data.gallery.forEach((item) => {
     assets.push(item.image.url);
@@ -111,11 +111,13 @@ const handleRequest = async (api) => {
     }
   });
 
-  // collections.forEach((collection) => {
-  //   collection.data.products.forEach((item) => {
-  //     assets.push(item.product.data.url);
-  //   });
-  // });
+  collections.forEach((collection) => {
+    console.log(collection.data.products[0].product.data.image.url);
+    // collection.data.products.forEach((item) => {
+    //   // assets.push(item.product.data.url);
+
+    // });
+  });
 
   return {
     assets,
