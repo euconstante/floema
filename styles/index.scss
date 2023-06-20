@@ -1,0 +1,34 @@
+// --------------------------------- B A S E ----------------------------------------
+
+// -------------------------------- U T I L S ---------------------------------------
+
+@import './utils/variables';
+@import './utils/functions';
+@import './utils/mixins';
+@import './utils/vendors';
+@import './utils/responsive';
+
+// -------------------------- P A G E S  D I R E C T O R Y --------------------------
+@import './base/fonts.scss';
+@import './base/reset.scss';
+@import './base/base.scss';
+
+@import './pages/about/about.scss';
+@import './pages/about/content.scss';
+@import './pages/about/gallery.scss';
+@import './pages/about/highlight.scss';
+
+@import './pages/collections/collections.scss';
+
+@import './pages/details/details.scss';
+
+@import './pages/home/home.scss';
+
+// ------------------------------- L A Y O U T S ------------------------------------
+
+// ------------------------------- S H A R E D --------------------------------------
+@import './shared/descriptions';
+@import './shared/titles';
+// @import './shared/links';
+// @import './shared/pages';
+// @import './shared/vertical-titles';
